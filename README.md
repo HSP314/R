@@ -1,6 +1,11 @@
 # R
 R Programming
 
+## R Shiny 
+
+### Using R Shiny to Explore Clinical Trial Data
+#### https://www.lexjansen.com/pharmasug-cn/2021/AD/Pharmasug-China-2021-AD072.pdf
+
 ## R for Clinical Study Reports and Submission
 #### https://r4csr.org
 

@@ -29,17 +29,31 @@ The list of functions below contains commonly used functions for generating tabl
 - `filter()`: Select rows based on column values
 - `slice()`: Select rows based on location
 - `arrange()`: Order rows
-- ##### Columns:
+##### Columns:
 - `select()`: Include/Exclude column
 - `rename()`: Change column name
 - `mutate()`: Create new column
 - `relocate()`: Change column order
-- ##### Groups of rows:
+##### Groups of rows:
 - `summarise()`: Group into single row for summary
 
 ## Package: tidyr: tidy (Messy Data)
 
 ### Documentation: [tidy Package Documentation] (https://cloud.r-project.org/web/packages/tidyr/tidyr.pdf)
 
-#### Additional Data Manipulation: Pivoting, Rectangling, Nesting, Splitting and Combining
+#### Additional Data Manipulation: Pivoting, Rectangling, Nesting, Splitting, Combining, Missing values
+#### Pivoting
+- `pivot_longer()`: Transpose dataset wide to long
+- `pivot_wider()`: Transpose dataset long to wide
+#### Rectangling (can be used for JSON file formats, metadat programming)
+- `unnest_longer`: takes each element in column and creates into rows
+- `unnest_wider`: takes each element in list of column and makes new column
+- 'hoist()': Apply pivot_wider with selected components
+#### Concatenate and Split column 
+- `separate_longer_delim()', 'seprate_longer_position()': Split string into rows
+- 'separate_wider_delim()', 'separate_wider_position()', separate_wider_regex': Split a string into column
+- 'unite()': Combine multiple columns into one
+
+# Updates pending...
+#### Missing values https://tidyr.tidyverse.org/reference/index.html
 - `mutate()`:

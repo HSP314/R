@@ -24,3 +24,22 @@ The list of functions below contains commonly used functions for generating tabl
 - `filter()`: Filter the dataset based on conditions; sub-functions include: by, group_by, operators (>, >=, ==, &, is.na(), between(), etc.)
 - `summarise()`: Create descriptive summaries; sub-functions include: mean, median, sd, IQR, mad, min, max, first, last, nth, n, d_distinct, any, all
 - `arrange()`: Sort the dataset based on conditions; sub-functions include: by_group, desc (sort descending)
+
+##### Rows:
+- `filter()`: Select rows based on column values
+- `slice()`: Select rows based on location
+- `arrange()`: Order rows
+- ##### Columns:
+- `select()`: Include/Exclude column
+- `rename()`: Change column name
+- `mutate()`: Create new column
+- `relocate()`: Change column order
+- ##### Groups of rows:
+- `summarise()`: Group into single row for summary
+
+## Package: tidyr: tidy (Messy Data)
+
+### Documentation: [tidy Package Documentation] (https://cloud.r-project.org/web/packages/tidyr/tidyr.pdf)
+
+#### Additional Data Manipulation: Pivoting, Rectangling, Nesting, Splitting and Combining
+- `mutate()`:

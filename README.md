@@ -1,6 +1,8 @@
 # R
 R Programming
 
+## SAS to R folder contains Module 1 to 5 from Author Thomas Neitmann.
+
 ## R Shiny 
 
 ### Using R Shiny to Explore Clinical Trial Data

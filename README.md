@@ -31,3 +31,6 @@ R Programming
 #### https://atorus-research.github.io/metacore/ 
 #### Root folder contains R code testing the implementation of Meatacore to create programming specification and management
 
+
+#### References:
+#### Fillmore C, Gans M, Tarasiewicz A, Stackhouse M (2023). metacore: A Centralized Metadata Object Focus on Clinical Trial Data Programming Workflows. https://atorus-research.github.io/metacore/, https://github.com/atorus-research/metacore

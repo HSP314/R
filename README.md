@@ -1,7 +1,8 @@
 # R
 R Programming
 
-## SAS to R folder contains Module 1 to 5 from Author Thomas Neitmann.
+## Comparison of SAS to R common anlaysis and results
+#### https://psiaims.github.io/CAMIS/
 
 ## R Shiny 
 
